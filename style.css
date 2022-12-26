@@ -76,11 +76,160 @@ p {
 
 
 @media only screen and (max-width: 1999px) {
+
+    div.flex-container > div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding-right: 0;
     
+    }
+
     div.flex-container > img {
         margin: 60px 0 0;
         width: 800px;
     }
     
 
+}
+
+@media only screen and (max-width: 900px) {
+    
+    body{
+        text-align: center;
+        font-family: Calibri;
+        padding: 0 0 0;
+    }
+    
+    div.flex-container  span.main {
+        font-size: 100px;
+        font-weight: bolder;
+        align-self: center;
+    
+    }
+    
+    span.dot{
+        position: relative;
+        top: 18px;
+        font-size: 160px;
+    }
+    
+    
+    div.flex-container{
+        margin: 0 0 200px;
+        padding: 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+
+    div.flex-container  span.small {
+        margin-top: -20px;
+        font-size: 30px;
+        font-weight: lighter;
+    
+    }
+
+    div.flex-container > img {
+        margin: 60px 0 0;
+        width: 650px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+    body{
+        text-align: center;
+        font-family: Calibri;
+        padding: 0 0 0;
+    }
+    
+    div.flex-container  span.main {
+        font-size: 70px;
+        font-weight: bolder;
+        align-self: center;
+    
+    }
+    
+    span.dot{
+        position: relative;
+        top: 10px;
+        font-size: 105px;
+    }
+    
+    
+    div.flex-container{
+        margin: 0 0 200px;
+        padding: 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+
+    div.flex-container  span.small {
+        margin-top: -15px;
+        font-size: 22px;
+        font-weight: lighter;
+    
+    }
+
+    div.flex-container > img {
+        margin: 30px 0 0;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    
+    body{
+        text-align: center;
+        font-family: Calibri;
+        padding: 0 0 0;
+    }
+    
+    div.flex-container  span.main {
+        font-size: 70px;
+        font-weight: bolder;
+        align-self: center;
+    
+    }
+    
+    span.dot{
+        position: relative;
+        top: 10px;
+        font-size: 105px;
+    }
+    
+    
+    div.flex-container{
+        margin: 0 0 200px;
+        padding: 0 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+
+    div.flex-container  span.small {
+        margin-top: -15px;
+        font-size: 22px;
+        font-weight: lighter;
+    
+    }
+
+    div.flex-container > img {
+        margin: 30px 0 0;
+        width: 400px;
+    }
 }
